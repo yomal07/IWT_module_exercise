@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<title> Contact </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="js/myScript.js"></script>
+	</head>
+
+	<body>
+		
+		<img src="images/myCart.png" width="200px" height="200px" class="logo">
+		
+		
+		<h1> Shopping cart </h1>
+		
+		<h2> The online shopping store</h2>
+			
+		<hr>
+		
+			<ul class="menu">
+				<li class="menu"><a href="file:///C:/Users/Yomal%20Bandara/Desktop/IWT/src/index.html"> Home </a></li>
+				<li class="menu"><a href="file:///C:/Users/Yomal%20Bandara/Desktop/IWT/src/news.html"> News </a></li>
+				<li class="menu"><a href="file:///C:/Users/Yomal%20Bandara/Desktop/IWT/src/register.html">Contact </a></li>
+				<li class="menu"><a href="https://www.sliit.lk/">About </a></li>
+			</ul>
+			<br/>
+
+			<div style="background-color: beige;">
+			<h1 class = "fifa">Registration Form</h1>
+			<br/>
+		
+			<form onsubmit="return checkPassword()">
+				First name<br/>
+				<input type="text" name="firstname"><br><br>
+				Last name<br/>
+				<input type="text" name="lastname"><br/><br/>
+				Gender
+				<input type="radio" name="gender" required>Male
+				<input type="radio" name="gender" required>Female <br/><br/>
+				Mobile Number<br/>
+				<input type="phone" name="mobile" pattern="[0-9]{10}" placeholder="1234567891" required><br/><br/> 
+				Email<br/>
+				<input type="email" name="email" placeholder="abc@mail.com" pattern="[a-z0-9._&+-]+@[a-z0-9.-]+.[a-z{2-3}]" required><br/><br/>
+				Address<br/>
+				<textarea rows="8" cols="45"></textarea><br/><br/>
+				Date Of Birth<br/>
+				<input type="date" name="dob" required><br/><br/>
+				Password<br/>
+				<input type="password" id="pwd" required><br/><br/>
+				Re-enter Password<br/>
+				<input type="password" id="confpwd" required><br/><br/>
+
+				<input type="checkbox" id="checkbox" class="inputStyle" onclick="enableButton()">Accept Privacy Policy<br/><br/>
+				<input class="fifa" type="submit" id="submitBtn" value="Submit" disabled>
+
+			</form>
+			</div>
+		
+		<footer class="fifa">
+		Created by:Yomal Bandara <br>
+		<a href="http://courseweb.sliit.lk/">Visit our course</a>
+		</footer>
+	
+	</body>
+
+
+</html>

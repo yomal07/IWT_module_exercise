@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<title> My shopping cart </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	
+	</head>
+
+	<body>
+		
+		<img src="images/myCart.png" width="200px" height="200px" class="logo">
+		
+		
+		<h1> Shopping cart </h1>
+		
+		<h2> The online shopping store</h2>
+			
+		<hr>
+		
+			<ul class="menu">
+				<li class="menu"><a href="index.php"> Home </a></li>
+				<li class="menu"><a href="news.html"> News </a></li>
+				<li class="menu"><a href="register.html">Contact </a></li>
+				<li class="menu"><a href="about.php">About </a></li>
+			</ul>
+			<br>
+		
+
+			<form method="POST" action="submitaAddItems.php">
+				<h2>Add Item</h2>
+
+					Name of the Item:<br>
+					<input type="text" name="itemName"/><br><br>
+					Quantity:<br>
+					<input type="number" name="qty"/><br><br>
+					Description:<br>
+					<textarea rows="10" cols="70" name="description"></textarea><br><br>
+					Item Code:<br>
+					<input type="text" name="itemcode"/><br><br>
+					Price:<br>
+					<input type="text" name="price"/><br><br>
+					<input type="submit" value="Submit"/><br>
+			</form>
+		
+		
+		<footer class="fifa">
+		Created by:Yomal Bandara <br>
+		<a href="http://courseweb.sliit.lk/">Visit our course</a>
+		</footer>
+	
+	</body>
+
+
+</html>
